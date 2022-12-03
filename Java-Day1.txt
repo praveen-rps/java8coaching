@@ -1,0 +1,151 @@
+Java is an open source platform independent general purpose programming lang.
+
+Web Applications
+
+
+1. Standalone Applications  -- An application running on one single machine and only one user an access it.
+2. Client Server Applications ---  The application is running on two machines, one is user interace and bussiness logic
+                     
+3. Web Applications  --
+
+
+C, C++, COBOL, foxpro ----> Ada Pascal, 
+
+Java, DotNet, Python
+
+
+1. Open sources --- More 1000 libraries 
+2. Big community to support
+
+
+spring
+springboot
+hibernate
+android
+hadoop
+struts
+ejb
+selenium
+Scala
+Kafka
+RabbitMQ
+
+
+JDK, JRE
+
+
+JDK ---> Java Developement Kit
+JRE ---> Java Runtime Environment
+
+
+
+IDE--> Integrated Development Env
+
+Eclipse, IntelliJ, MyEclipse, Wordpad++, Notepad++, VSCode
+
+
+
+Java ----> J2SE, J2EE, J2ME
+
+J2SE----> Standalone Applications  --- Java Basics
+
+J2EE ----> Enterprise Applications --- Advanced Java
+
+J2ME----> Mobile Applications
+
+
+
+1. create a java project in eclipse
+
+
+Java versions
+
+
+
+1995-----> 2022
+
+java2
+
+java4
+java5
+java6
+java7
+java8
+java9
+java10
+java11
+java12
+;
+;
+;
+java18
+
+
+java8-----> java11 ----> java17
+
+
+
+
+printf("Hello");----> console / output screen
+
+System.out.println("any string");
+
+
+class Employee
+{
+
+	public static void main(String args[]){
+
+		// actual code;
+	}
+}
+
+
+To create a project in eclipse
+
+1. open the eclipse
+2. file--->new-->java project-->	
+
+
+provide the projectname ( project name must be lower case without any spaces)
+select the approprite the java version from the drop down menu
+
+
+Datatypes
+----------
+
+The type of the data with which we can handle in the program
+
+1. int
+2. float
+3. double
+4. boolean---> true/false
+5. Date------> Date 
+6. String----"group of characters"
+7. void---No datatype
+8. byte
+9. short
+10.long
+
+11. array------>by general syntax, Array predefined class in collection
+
+Array is a collection of homogenous elements
+
+
+syntax
+------
+
+datatype arrayname[size];
+
+int a[5];
+
+int a;
+
+
+
+
+
+
+
+
+
