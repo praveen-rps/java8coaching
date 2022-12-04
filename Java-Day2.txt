@@ -1,0 +1,208 @@
+
+Input and OUtput Methods
+control statements
+
+
+Input Methods
+-------------
+
+1. Scanner Class  --Utility class 
+
+2. StreamReaders --- Streams
+
+
+java.util.Scanner;
+
+#include<stdio.h>
+#include<iostream.h>
+
+printf()--- to send data to console output
+scanf()---read the data from keyboard
+
+
+import java.util.Scanner;
+
+
+ClassName obj = new ClassName();
+
+Scanner sc = new Scanner(System.in);
+
+
+nextInt()
+nextFloat()
+nextDouble()
+next()--- strings
+nextLine()---string
+
+nextBoolean()
+
+int a;
+float ch;
+a= sc.nextInt();
+
+ch=sc.nextFloat();
+
+String name;
+
+name= sc.next();// anil kumar
+sysout(name);// anil
+
+name=sc.nextLine();
+sysout(name); anil kumar
+
+
+Control Statements
+------------------
+Those statements which will transfer the control from one part of the program to another part
+of the program
+
+s1;
+s2;
+s3;
+
+all the statements are executed in the linear order without skipping or re executing the same
+line
+
+conditional based control statements-- transfer the control based on a condition
+ex> if, switch. loops(while, do while, for loop, forEach)
+
+
+unconditional based control statements-- They will simply transfer the control without 
+checking any condition
+ex> goto, break, continue
+
+
+
+if()
+---
+If is a conditional based control statement which will select one block out of two blocks
+
+Different forms of if()
+-----------------------
+1. simple if
+2. if else
+3. nested if
+4. else if ladder
+
+
+
+if(cond)
+{
+	statements;
+}
+next_statements;
+
+
+if(cond)
+{
+	// true block statements;
+}
+else
+{
+	// false block statements;
+}
+next_statements;
+
+
+
+if(cond1)
+{
+		if(cond2)
+		{
+			s1;
+		}
+		else
+		{
+			s2;
+		}
+}
+else
+{
+		if(cond3)
+		{
+			s3;
+		}
+		else
+		{
+			s4;
+		}
+}
+		
+c1--> True and C2-->True,----->s1
+c1--->True and c2--->false----> s2
+c1-->false and c3--->true----> s3
+c1-->false and c3--->false---> s4
+
+c1 false and c2--> true  ---> 
+
+	
+
+else if Ladder
+--------------
+
+if( cond1)
+{
+		s1
+else if(cond2)
+		s2;
+else if(cond3)
+		s3;
+else if(cond4)
+		s4;
+;
+;
+;
+else if(condn)
+		sn;
+else
+		sn+1;
+}
+
+
+
+
+x=1;// assingment --> assigning 1 to x variable
+
+x==1;// comparing the value of x to 1
+
+
+switch
+-------
+switch is also a conditional based control statment, which will select one block out
+of n blocks
+
+syntax:
+x=1;
+
+switch(x)
+{
+default: statements;
+case 1 : statements ; break;
+case 2 : statements ; break;
+case 3 : statements ; break;
+;
+;
+;
+
+}
+----->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
